@@ -15,7 +15,7 @@
     </bean>
 
     <!-- JNDI DataSource for J2EE environments           
-    <jee:jndi-lookup id="dataSource" jndi-name="jdbc/dataSourceBmi" />
+    <jee:jndi-lookup id="dataSource" jndi-name="jdbc/dataSource" />
     -->
  
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
